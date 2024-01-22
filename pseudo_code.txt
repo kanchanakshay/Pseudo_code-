@@ -1,0 +1,41 @@
+AIM: The program is written to initiaize SPI peripheral and supporting pheripherals like Sytem clock, SPI bus clock and GPIO.
+
+Start program
+#calling subroutines
+SystemClock_Config()
+GPIO_Init()
+SPI_Init()
+
+SUBROUTINE SystemClock_Config(void)
+Set Oscillator type
+Set PLLstate
+Set PLLsource
+Set Peripherals bus clock
+Set Peripherals bus clock divider
+ENDSUBROUTINE
+
+SUBROUTINE GPIO_Init(void)
+Declare GPIO pins
+Enable GPIO pins clock
+Set GPIO Pins mode
+Set GPIO pin initial state
+ENDSUBROUTINE
+
+SUBROUTINE SPI_Init(void)
+Set SPI MODE
+Set SPI Direction 
+Set SPI DataSize
+Set SPI ClockPlarity
+Set SPI ClockPase
+Set SPI BaudRtePescaler
+Set SPI FirstBit
+Set SPI CRCCalculation
+Set SPI CRCPolynomiyal
+ENDSUBROUTINE
+
+End program
+
+
+
+
+
